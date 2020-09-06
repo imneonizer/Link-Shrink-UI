@@ -1,0 +1,74 @@
+.shrink_form {
+    width: 450px;
+    margin: 15% auto;
+}
+
+
+.shrink_form__header {
+    font-size: 30px;
+    letter-spacing: 5px;
+    color: #2b2b2b;
+}
+
+
+.description {
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 1.3em;
+    margin: -2px 0 45px;
+    color: #444444;
+}
+
+
+.input {
+    display: flex;
+    align-items: center;
+}
+
+
+.bubbly-button, .url-box {
+    height: 44px;
+    border: none;
+}
+
+
+.url-box {
+    width: 75%;
+    background: #FDFCFB;
+    font-family: inherit;
+    color: #737373;
+    letter-spacing: 1px;
+    text-indent: 5%;
+    border-radius: 5px 0 0 5px;
+}
+
+
+.bubbly-button {
+    width: 25%;
+    height: 46px;
+    background: #E86C8D;
+    font-family: inherit;
+    font-weight: bold;
+    color: #e4e4e4;
+    letter-spacing: 1px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background .3s ease-in-out;
+}
+
+
+.bubbly-button:hover {
+    background: #d45d7d;
+    
+}
+
+.bubbly-button:active {
+    /* transform: translateY(-1px); */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+input:focus {
+    outline: none;
+    /* outline: 2px solid #E86C8D; */
+    box-shadow: 0 0 2px #E86C8D;
+}
